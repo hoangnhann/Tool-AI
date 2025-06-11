@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Tool AI</title>
+  </head>
+  <body>
+    <div class="login-wrapper">
+      <div class="title-name">Tool AI</div>
+
+      <div class="form-box">
+        <h2>Đăng Nhập</h2>
+
+        <label>Email</label>
+        <input type="email" placeholder="Email" id="email-login" />
+
+        <label>Mật khẩu</label>
+        <input type="password" placeholder="Mật khẩu" id="password-login" />
+
+        <button onclick="login()">Đăng Nhập</button>
+
+        <p>Chưa có tài khoản? <a href="../src/register.html">Đăng ký</a></p>
+      </div>
+    </div>
+
+    <script src="./renderer.js"></script>
+    <script src="../frontend-toolAI/script.js"></script>
+  </body>
+</html>
